@@ -25,8 +25,8 @@ A conversational AI agent that performs basic arithmetic operations using LangCh
 ### Using UV (Recommended)
 
 ```bash
-# Clone the repository
-cd mysampleagent
+# Clone the repository then 
+cd Arithmetic
 
 # Install dependencies
 uv sync
