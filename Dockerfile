@@ -12,7 +12,6 @@ RUN uv pip install --system --no-cache-dir -r pyproject.toml
 
 
 COPY app.py ./
-COPY main.py ./
 COPY README.md ./
 
 EXPOSE 8501
