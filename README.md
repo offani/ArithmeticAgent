@@ -174,33 +174,7 @@ Run with:
 docker-compose up -d
 ```
 
-## Security Notes
 
-⚠️ **Important**: The Groq API key is currently hardcoded in the application. For production:
-
-1. Move API key to environment variables
-2. Use Docker secrets or a secrets management service
-3. Never commit API keys to version control
-
-Example:
-```python
-import os
-api_key = os.getenv("GROQ_API_KEY")
-```
-
-## Troubleshooting
-
-**SSL Certificate Errors:**
-The app disables SSL verification for the HTTP client. This is for development only. For production, ensure proper SSL certificates.
-
-**Port Already in Use:**
-```bash
-# Change the port
-uv run streamlit run app.py --server.port=8502
-```
-
-**Docker Build Fails:**
-Ensure Docker is running and you have sufficient disk space.
 
 ## Contributing
 
