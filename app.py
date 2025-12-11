@@ -110,8 +110,8 @@ Never write function syntax like <function=...> in your responses. Just use the 
 # Streamlit UI
 st.set_page_config(page_title="Math Agent Assistant", page_icon="🤖", layout="wide")
 
-st.title("🤖 Math Agent Assistant")
-st.markdown("Ask me to perform arithmetic calculations or just chat!")
+st.title("🤖 Arithmetic Agent ")
+# st.markdown("Ask me to perform arithmetic calculations or just chat!")
 
 
 if "messages" not in st.session_state:
